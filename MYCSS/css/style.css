@@ -1,0 +1,67 @@
+h1 {
+    background-color: aqua;
+    opacity: 0.5;
+}
+
+.p1 {
+    line-height: 5;
+    background-color: red;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    /* list-style-type: circle;
+    list-style-type: inside;
+    list-style-image: url(../img/logos.png); */
+    list-style: circle inside url(../img/logos.png);
+}
+
+.box1 {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    border: 10px solid olivedrab;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.box2 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 10px solid blueviolet;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+
+.box3 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 10px solid orange;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+.box4 {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.5);
+    float: right;
+    background-image: url(../img/mononoke1.jpg);
+}
+
+header {
+    height: 80px;
+    background-image: url(..img/header.png);
+}
