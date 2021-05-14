@@ -1,0 +1,35 @@
+h1 {
+    color: aqua;
+    font-weight: 100;
+}
+
+.info {
+    color: brown;
+}
+
+.btn {
+    width: 100px;
+    background: skyblue;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    cursor: zoom-in;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+h3::before,
+h4::before {
+    content: '『 ';
+}
+
+h3::after,
+h4::after {
+    content: ' 』';
+}
+
+main> :nth-child(3) {
+    background: pink;
+}
